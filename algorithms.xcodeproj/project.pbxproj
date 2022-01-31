@@ -13,9 +13,14 @@
 		4CEA7EA527A6EAA600B7A9D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEA7EA327A6EAA600B7A9D1 /* Main.storyboard */; };
 		4CEA7EA727A6EAA700B7A9D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEA7EA627A6EAA700B7A9D1 /* Assets.xcassets */; };
 		4CEA7EAA27A6EAA700B7A9D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEA7EA827A6EAA700B7A9D1 /* LaunchScreen.storyboard */; };
-		4CEA7EB527A6EAA700B7A9D1 /* algorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7EB427A6EAA700B7A9D1 /* algorithmsTests.swift */; };
 		4CEA7EBF27A6EAA700B7A9D1 /* algorithmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7EBE27A6EAA700B7A9D1 /* algorithmsUITests.swift */; };
 		4CEA7EC127A6EAA700B7A9D1 /* algorithmsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7EC027A6EAA700B7A9D1 /* algorithmsUITestsLaunchTests.swift */; };
+		4CEA7ED227A7175E00B7A9D1 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7ED127A7175E00B7A9D1 /* TreeNode.swift */; };
+		4CEA7ED727A84A7D00B7A9D1 /* SortedLinkedListToBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7ED627A84A7D00B7A9D1 /* SortedLinkedListToBST.swift */; };
+		4CEA7ED927A852FD00B7A9D1 /* SortedArrayToBSTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7ECD27A6EB0000B7A9D1 /* SortedArrayToBSTTests.swift */; };
+		4CEA7EDA27A8530100B7A9D1 /* SortedArrayToBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7EB427A6EAA700B7A9D1 /* SortedArrayToBST.swift */; };
+		4CEA7EDC27A8532600B7A9D1 /* SortedLinkedListToBSTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7EDB27A8532600B7A9D1 /* SortedLinkedListToBSTTests.swift */; };
+		4CEA7EDE27A8587F00B7A9D1 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7EDD27A8587F00B7A9D1 /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +50,15 @@
 		4CEA7EA927A6EAA700B7A9D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CEA7EAB27A6EAA700B7A9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CEA7EB027A6EAA700B7A9D1 /* algorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = algorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CEA7EB427A6EAA700B7A9D1 /* algorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algorithmsTests.swift; sourceTree = "<group>"; };
+		4CEA7EB427A6EAA700B7A9D1 /* SortedArrayToBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SortedArrayToBST.swift; path = ../../algorithmsTests/SortedArrayToBST.swift; sourceTree = "<group>"; };
 		4CEA7EBA27A6EAA700B7A9D1 /* algorithmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = algorithmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEA7EBE27A6EAA700B7A9D1 /* algorithmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algorithmsUITests.swift; sourceTree = "<group>"; };
 		4CEA7EC027A6EAA700B7A9D1 /* algorithmsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algorithmsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CEA7ECD27A6EB0000B7A9D1 /* SortedArrayToBSTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedArrayToBSTTests.swift; sourceTree = "<group>"; };
+		4CEA7ED127A7175E00B7A9D1 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		4CEA7ED627A84A7D00B7A9D1 /* SortedLinkedListToBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedLinkedListToBST.swift; sourceTree = "<group>"; };
+		4CEA7EDB27A8532600B7A9D1 /* SortedLinkedListToBSTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedLinkedListToBSTTests.swift; sourceTree = "<group>"; };
+		4CEA7EDD27A8587F00B7A9D1 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,10 @@
 		4CEA7E9C27A6EAA600B7A9D1 /* algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				4CEA7E9D27A6EAA600B7A9D1 /* AppDelegate.swift */,
-				4CEA7E9F27A6EAA600B7A9D1 /* SceneDelegate.swift */,
-				4CEA7EA127A6EAA600B7A9D1 /* ViewController.swift */,
-				4CEA7EA327A6EAA600B7A9D1 /* Main.storyboard */,
-				4CEA7EA627A6EAA700B7A9D1 /* Assets.xcassets */,
-				4CEA7EA827A6EAA700B7A9D1 /* LaunchScreen.storyboard */,
+				4CEA7ED427A8499100B7A9D1 /* na */,
+				4CEA7ED027A6F1C600B7A9D1 /* Leetcode */,
 				4CEA7EAB27A6EAA700B7A9D1 /* Info.plist */,
+				4CEA7ED327A8497900B7A9D1 /* Helpers */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -113,7 +120,8 @@
 		4CEA7EB327A6EAA700B7A9D1 /* algorithmsTests */ = {
 			isa = PBXGroup;
 			children = (
-				4CEA7EB427A6EAA700B7A9D1 /* algorithmsTests.swift */,
+				4CEA7ECD27A6EB0000B7A9D1 /* SortedArrayToBSTTests.swift */,
+				4CEA7EDB27A8532600B7A9D1 /* SortedLinkedListToBSTTests.swift */,
 			);
 			path = algorithmsTests;
 			sourceTree = "<group>";
@@ -125,6 +133,37 @@
 				4CEA7EC027A6EAA700B7A9D1 /* algorithmsUITestsLaunchTests.swift */,
 			);
 			path = algorithmsUITests;
+			sourceTree = "<group>";
+		};
+		4CEA7ED027A6F1C600B7A9D1 /* Leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				4CEA7EB427A6EAA700B7A9D1 /* SortedArrayToBST.swift */,
+				4CEA7ED627A84A7D00B7A9D1 /* SortedLinkedListToBST.swift */,
+			);
+			path = Leetcode;
+			sourceTree = "<group>";
+		};
+		4CEA7ED327A8497900B7A9D1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4CEA7ED127A7175E00B7A9D1 /* TreeNode.swift */,
+				4CEA7EDD27A8587F00B7A9D1 /* ListNode.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4CEA7ED427A8499100B7A9D1 /* na */ = {
+			isa = PBXGroup;
+			children = (
+				4CEA7E9D27A6EAA600B7A9D1 /* AppDelegate.swift */,
+				4CEA7E9F27A6EAA600B7A9D1 /* SceneDelegate.swift */,
+				4CEA7EA127A6EAA600B7A9D1 /* ViewController.swift */,
+				4CEA7EA327A6EAA600B7A9D1 /* Main.storyboard */,
+				4CEA7EA627A6EAA700B7A9D1 /* Assets.xcassets */,
+				4CEA7EA827A6EAA700B7A9D1 /* LaunchScreen.storyboard */,
+			);
+			path = na;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CEA7EDE27A8587F00B7A9D1 /* ListNode.swift in Sources */,
 				4CEA7EA227A6EAA600B7A9D1 /* ViewController.swift in Sources */,
+				4CEA7ED727A84A7D00B7A9D1 /* SortedLinkedListToBST.swift in Sources */,
 				4CEA7E9E27A6EAA600B7A9D1 /* AppDelegate.swift in Sources */,
+				4CEA7EDA27A8530100B7A9D1 /* SortedArrayToBST.swift in Sources */,
+				4CEA7ED227A7175E00B7A9D1 /* TreeNode.swift in Sources */,
 				4CEA7EA027A6EAA600B7A9D1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +311,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CEA7EB527A6EAA700B7A9D1 /* algorithmsTests.swift in Sources */,
+				4CEA7EDC27A8532600B7A9D1 /* SortedLinkedListToBSTTests.swift in Sources */,
+				4CEA7ED927A852FD00B7A9D1 /* SortedArrayToBSTTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -497,7 +541,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8QP2H5RNLD;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pires.algorithmsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -517,7 +560,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8QP2H5RNLD;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pires.algorithmsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
