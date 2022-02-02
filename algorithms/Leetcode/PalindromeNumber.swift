@@ -11,13 +11,9 @@ class PalindromeNumber
 {
     func isPalindrome(_ x: Int) -> Bool
     {
-        if x < 0
+        if x < 0 || (x != 0 && x % 10 == 0)
         {
             return false
-        }
-        if x < 10 && x > 0
-        {
-            return true
         }
         var input = x
         var result = 0

@@ -14,6 +14,7 @@ class PalindromeNumberTests: XCTestCase
     {
         XCTAssertTrue(PalindromeNumber().isPalindrome(8))
         XCTAssertTrue(PalindromeNumber().isPalindrome(121))
+        XCTAssertTrue(PalindromeNumber().isPalindrome(21112))
         
         XCTAssertFalse(PalindromeNumber().isPalindrome(-121))
         XCTAssertFalse(PalindromeNumber().isPalindrome(10))
