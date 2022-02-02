@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C01889027AA89A100E8C4AF /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01888F27AA89A100E8C4AF /* PalindromeNumber.swift */; };
+		4C01889227AA8A1200E8C4AF /* PalindromeNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01889127AA8A1200E8C4AF /* PalindromeNumberTests.swift */; };
 		4CEA7E9E27A6EAA600B7A9D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7E9D27A6EAA600B7A9D1 /* AppDelegate.swift */; };
 		4CEA7EA027A6EAA600B7A9D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7E9F27A6EAA600B7A9D1 /* SceneDelegate.swift */; };
 		4CEA7EA227A6EAA600B7A9D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7EA127A6EAA600B7A9D1 /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C01888F27AA89A100E8C4AF /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
+		4C01889127AA8A1200E8C4AF /* PalindromeNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumberTests.swift; sourceTree = "<group>"; };
 		4CEA7E9A27A6EAA600B7A9D1 /* algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEA7E9D27A6EAA600B7A9D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CEA7E9F27A6EAA600B7A9D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,9 +113,9 @@
 		4CEA7E9C27A6EAA600B7A9D1 /* algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				4CEA7EAB27A6EAA700B7A9D1 /* Info.plist */,
 				4CEA7ED427A8499100B7A9D1 /* na */,
 				4CEA7ED027A6F1C600B7A9D1 /* Leetcode */,
-				4CEA7EAB27A6EAA700B7A9D1 /* Info.plist */,
 				4CEA7ED327A8497900B7A9D1 /* Helpers */,
 			);
 			path = algorithms;
@@ -122,6 +126,7 @@
 			children = (
 				4CEA7ECD27A6EB0000B7A9D1 /* SortedArrayToBSTTests.swift */,
 				4CEA7EDB27A8532600B7A9D1 /* SortedLinkedListToBSTTests.swift */,
+				4C01889127AA8A1200E8C4AF /* PalindromeNumberTests.swift */,
 			);
 			path = algorithmsTests;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			children = (
 				4CEA7EB427A6EAA700B7A9D1 /* SortedArrayToBST.swift */,
 				4CEA7ED627A84A7D00B7A9D1 /* SortedLinkedListToBST.swift */,
+				4C01888F27AA89A100E8C4AF /* PalindromeNumber.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -302,6 +308,7 @@
 				4CEA7ED727A84A7D00B7A9D1 /* SortedLinkedListToBST.swift in Sources */,
 				4CEA7E9E27A6EAA600B7A9D1 /* AppDelegate.swift in Sources */,
 				4CEA7EDA27A8530100B7A9D1 /* SortedArrayToBST.swift in Sources */,
+				4C01889027AA89A100E8C4AF /* PalindromeNumber.swift in Sources */,
 				4CEA7ED227A7175E00B7A9D1 /* TreeNode.swift in Sources */,
 				4CEA7EA027A6EAA600B7A9D1 /* SceneDelegate.swift in Sources */,
 			);
@@ -311,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C01889227AA8A1200E8C4AF /* PalindromeNumberTests.swift in Sources */,
 				4CEA7EDC27A8532600B7A9D1 /* SortedLinkedListToBSTTests.swift in Sources */,
 				4CEA7ED927A852FD00B7A9D1 /* SortedArrayToBSTTests.swift in Sources */,
 			);
