@@ -1,5 +1,9 @@
 name: Swift
 
+concurrency: 
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
 on:
   push:
     branches: [ main ]
@@ -7,10 +11,8 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
-
+  build:  
     runs-on: macos-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Build
