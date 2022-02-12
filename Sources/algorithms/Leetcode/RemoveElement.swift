@@ -3,26 +3,22 @@ class RemoveElement
 {
     func removeElement(_ nums: inout [Int], _ val: Int) -> Int
     {
-        var free = (-1...(-1)) // range in which values can be replaced
+        var free = -1 // index at which you may replace a value
         var count = 0
         for (i,n) in nums.enumerated()
         {
             if n == val
             {
-                if free.lowerBound > -1
+                if free == -1
                 {
-                    free = free.lowerBound...i
-                }
-                else
-                {
-                    free = i...i
+                    free = i
                 }
                 count += 1
             }
-            else if free.lowerBound > -1
+            else if free != -1
             {
-                nums[free.lowerBound] = n
-                free = free.lowerBound+1...free.upperBound+1
+                nums[free] = n
+                free += 1
             }
         }
         return nums.count - count
@@ -42,5 +38,4 @@ class RemoveElement
         }
         return tail
     }
-    
 }

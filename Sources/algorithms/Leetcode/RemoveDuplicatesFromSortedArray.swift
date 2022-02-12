@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-// [1,1,2]
 class RemoveDuplicatesFromSortedArray
 {
     func removeDuplicates(_ nums: inout [Int]) -> Int
