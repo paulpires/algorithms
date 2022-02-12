@@ -3,6 +3,7 @@
 // [-10, -3, 0, 5, 9]
 // becomes:
 // [0, -10, 5, nil, -3, nil, 9]
+
 class SortedArrayToBST
 {
     func solution(_ nums: [Int]) -> TreeNode?
