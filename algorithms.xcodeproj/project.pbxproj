@@ -16,6 +16,10 @@
 		4C01889C27B1655F00E8C4AF /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01889B27B1655F00E8C4AF /* ValidParentheses.swift */; };
 		4C01889E27B169BF00E8C4AF /* ValidParenthesesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01889D27B169BF00E8C4AF /* ValidParenthesesTests.swift */; };
 		4C0188A027B1994A00E8C4AF /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01889F27B1994900E8C4AF /* Stack.swift */; };
+		4C0188A227B3F86100E8C4AF /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0188A127B3F86100E8C4AF /* MergeTwoSortedLists.swift */; };
+		4C0188A427B3F86C00E8C4AF /* MergeTwoSortedListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0188A327B3F86C00E8C4AF /* MergeTwoSortedListsTests.swift */; };
+		4C0188A627B3FB9E00E8C4AF /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0188A527B3FB9E00E8C4AF /* Array+Extension.swift */; };
+		4C0188AB27B3FECB00E8C4AF /* ListNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0188AA27B3FECB00E8C4AF /* ListNodeTests.swift */; };
 		4CEA7E9E27A6EAA600B7A9D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7E9D27A6EAA600B7A9D1 /* AppDelegate.swift */; };
 		4CEA7EA027A6EAA600B7A9D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7E9F27A6EAA600B7A9D1 /* SceneDelegate.swift */; };
 		4CEA7EA227A6EAA600B7A9D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7EA127A6EAA600B7A9D1 /* ViewController.swift */; };
@@ -59,6 +63,10 @@
 		4C01889B27B1655F00E8C4AF /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		4C01889D27B169BF00E8C4AF /* ValidParenthesesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParenthesesTests.swift; sourceTree = "<group>"; };
 		4C01889F27B1994900E8C4AF /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		4C0188A127B3F86100E8C4AF /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
+		4C0188A327B3F86C00E8C4AF /* MergeTwoSortedListsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedListsTests.swift; sourceTree = "<group>"; };
+		4C0188A527B3FB9E00E8C4AF /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		4C0188AA27B3FECB00E8C4AF /* ListNodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNodeTests.swift; sourceTree = "<group>"; };
 		4CEA7E9A27A6EAA600B7A9D1 /* algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEA7E9D27A6EAA600B7A9D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CEA7E9F27A6EAA600B7A9D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +112,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C0188A727B3FBAD00E8C4AF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4C0188A527B3FB9E00E8C4AF /* Array+Extension.swift */,
+				4C0188AA27B3FECB00E8C4AF /* ListNodeTests.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		4CEA7E9127A6EAA600B7A9D1 = {
 			isa = PBXGroup;
 			children = (
@@ -138,9 +155,11 @@
 		4CEA7EB327A6EAA700B7A9D1 /* algorithmsTests */ = {
 			isa = PBXGroup;
 			children = (
+				4C0188A727B3FBAD00E8C4AF /* Helpers */,
 				4CEA7ECD27A6EB0000B7A9D1 /* SortedArrayToBSTTests.swift */,
 				4CEA7EDB27A8532600B7A9D1 /* SortedLinkedListToBSTTests.swift */,
 				4C01889127AA8A1200E8C4AF /* PalindromeNumberTests.swift */,
+				4C0188A327B3F86C00E8C4AF /* MergeTwoSortedListsTests.swift */,
 				4C01889527AACBA700E8C4AF /* RomanToIntegerTests.swift */,
 				4C01889927B051EE00E8C4AF /* LongestCommonPrefixTests.swift */,
 				4C01889D27B169BF00E8C4AF /* ValidParenthesesTests.swift */,
@@ -166,6 +185,7 @@
 				4C01889327AACB8000E8C4AF /* RomanToInteger.swift */,
 				4C01889727B051DC00E8C4AF /* LongestCommonPrefix.swift */,
 				4C01889B27B1655F00E8C4AF /* ValidParentheses.swift */,
+				4C0188A127B3F86100E8C4AF /* MergeTwoSortedLists.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -326,6 +346,7 @@
 			files = (
 				4CEA7EDE27A8587F00B7A9D1 /* ListNode.swift in Sources */,
 				4C01889C27B1655F00E8C4AF /* ValidParentheses.swift in Sources */,
+				4C0188A227B3F86100E8C4AF /* MergeTwoSortedLists.swift in Sources */,
 				4C01889827B051DC00E8C4AF /* LongestCommonPrefix.swift in Sources */,
 				4CEA7EA227A6EAA600B7A9D1 /* ViewController.swift in Sources */,
 				4C0188A027B1994A00E8C4AF /* Stack.swift in Sources */,
@@ -346,7 +367,10 @@
 				4C01889227AA8A1200E8C4AF /* PalindromeNumberTests.swift in Sources */,
 				4C01889A27B051EE00E8C4AF /* LongestCommonPrefixTests.swift in Sources */,
 				4C01889627AACBA700E8C4AF /* RomanToIntegerTests.swift in Sources */,
+				4C0188A427B3F86C00E8C4AF /* MergeTwoSortedListsTests.swift in Sources */,
+				4C0188A627B3FB9E00E8C4AF /* Array+Extension.swift in Sources */,
 				4C01889E27B169BF00E8C4AF /* ValidParenthesesTests.swift in Sources */,
+				4C0188AB27B3FECB00E8C4AF /* ListNodeTests.swift in Sources */,
 				4CEA7EDC27A8532600B7A9D1 /* SortedLinkedListToBSTTests.swift in Sources */,
 				4CEA7ED927A852FD00B7A9D1 /* SortedArrayToBSTTests.swift in Sources */,
 			);

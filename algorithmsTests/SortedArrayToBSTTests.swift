@@ -9,7 +9,7 @@ import XCTest
 @testable import algorithms
 
 class SortedArrayToBSTTests: XCTestCase
-{
+{   
     func testA()
     {
         let input = [-10, -3, 0, 5, 9]
