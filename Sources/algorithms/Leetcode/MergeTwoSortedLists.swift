@@ -3,14 +3,8 @@ class MergeTwoSortedLists
 {
     func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode?
     {
-        guard let list1 = list1 else
-        {
-            return list2
-        }
-        guard let list2 = list2 else
-        {
-            return list1
-        }
+        guard let list1 = list1 else { return list2 }
+        guard let list2 = list2 else { return list1 }
         
         if list1.val < list2.val
         {
@@ -27,39 +21,31 @@ class MergeTwoSortedLists
     // MARK: - Iterative
     func mergeTwoLists2(_ list1: ListNode?, _ list2: ListNode?) -> ListNode?
     {
-        guard let list1 = list1 else
+        guard let list1 = list1 else { return list2 }
+        guard let list2 = list2 else { return list1 }
+        var mergedList = ListNode()
+        let head = mergedList
+        var _l1: ListNode? = list1
+        var _l2: ListNode? = list2
+        while let l1 = _l1, let l2 = _l2
         {
-            return list2
-        }
-        guard let list2 = list2 else
-        {
-            return list1
-        }
-        var current = ListNode()
-        let head = current
-        var l1: ListNode? = list1
-        var l2: ListNode? = list2
-        while l1 != nil && l2 != nil
-        {
-            if let _l1 = l1,
-               let _l2 = l2,
-               _l1.val < _l2.val
+            if l1.val < l2.val
             {
-                current.next = _l1
-                l1 = _l1.next
+                mergedList.next = l1
+                _l1 = l1.next
             }
             else
             {
-                current.next = l2
-                l2 = l2?.next
+                mergedList.next = l2
+                _l2 = l2.next
             }
             
-            if let next = current.next
+            if let next = mergedList.next
             {
-                current = next
+                mergedList = next
             }
         }
-        current.next = l1 ?? l2
+        mergedList.next = _l1 ?? _l2
         return head.next
     }
 }
