@@ -23,9 +23,15 @@ class SearchInsertPosition
         }
         if target < nums[mid]
         {
+            // search left half of array
             let subArr = Array(nums[0..<mid])
             return searchInsert(subArr, target, subArr.count / 2)
         }
+        if nums.count == mid + 1
+        {
+            return mid + 1
+        }
+        // search right half of array
         let subArr = Array(nums[mid+1..<nums.count])
         return searchInsert(subArr, target, subArr.count / 2) + mid + 1
     }

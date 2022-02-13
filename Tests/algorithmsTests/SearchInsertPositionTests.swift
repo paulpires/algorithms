@@ -23,4 +23,9 @@ class SearchInsertPositionTests: XCTestCase
         let out = SearchInsertPosition().searchInsert([1,3,5,6,7,8,9,10], 9)
         XCTAssertEqual(out, 6)
     }
+    func testE()
+    {
+        let out = SearchInsertPosition().searchInsert([1,3], 4)
+        XCTAssertEqual(out, 2)
+    }
 }
