@@ -2,6 +2,7 @@
 
 class SearchInsertPosition
 {
+    // MARK: - Recursive
     func searchInsert(_ nums: [Int], _ target: Int) -> Int
     {
         guard !nums.isEmpty else
@@ -34,5 +35,24 @@ class SearchInsertPosition
         // search right half of array
         let subArr = Array(nums[mid+1..<nums.count])
         return searchInsert(subArr, target, subArr.count / 2) + mid + 1
+    }
+
+    // MARK: - iterative
+    func searchInsert2(_ nums: [Int], _ target: Int) -> Int
+    {
+        var low = 0, high = nums.count-1
+        while low <= high
+        {
+            let mid = (low + high) / 2
+            if target > nums[mid]
+            {
+                low = mid + 1
+            }
+            else
+            {
+                high = mid - 1
+            }
+        }
+        return low
     }
 }
