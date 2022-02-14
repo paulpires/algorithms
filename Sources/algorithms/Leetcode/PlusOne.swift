@@ -7,25 +7,16 @@ class PlusOne
     func plusOne(_ digits: [Int]) -> [Int]
     {
         var result = digits
-        var incrementByOne = false
         for i in stride(from: result.count-1, through: 0, by: -1)
         {
-            if result[i] == 9
-            {
-                result[i] = 0
-                incrementByOne = true
-            }
-            else
+            if result[i] < 9
             {
                 result[i] += 1
-                incrementByOne = false
-                break
+                return result
             }
+            result[i] = 0
         }
-        if incrementByOne
-        {
-            result.insert(1, at: 0)
-        }
+        result.insert(1, at: 0)
         return result
     }
 }
